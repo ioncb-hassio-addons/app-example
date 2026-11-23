@@ -7,8 +7,8 @@ COPY rootfs /
 
 # Setup base
 RUN apk add --no-cache \
-    coreutils=9.8-r1 \
-    wget=1.25.0-r2
+    coreutils=9.11-r0 \
+    wget=1.25.0-r3
 
 # Build arguments
 ARG BUILD_ARCH
@@ -29,10 +29,10 @@ LABEL \
     maintainer="Jhon Coronel <jcoronel@ioncb.com>" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.vendor="Home Assistant Community Add-ons" \
+    org.opencontainers.image.vendor="IonCB Home Assistant Apps" \
     org.opencontainers.image.authors="Jhon Coronel <jcoronel@ioncb.com>" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://addons.community" \
+    org.opencontainers.image.url="https://github.com/ioncb-hassio-addons" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \

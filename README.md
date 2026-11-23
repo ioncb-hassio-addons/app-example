@@ -4,14 +4,11 @@
 ![Project Stage][project-stage-shield]
 [![License][license-shield]](LICENSE.md)
 
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-
 [![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-Example app by Community Home Assistant Apps.
+Example app by Home Assistant Community Apps.
 
 ## About
 
@@ -55,7 +52,7 @@ The original setup of this repository is by [Jhon Coronel][jhoncb].
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
-## We have got some Home Assistant Apps for you
+## We have got some Home Assistant apps for you
 
 Want some more functionality to your Home Assistant instance?
 
@@ -86,12 +83,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [commits-shield]: https://img.shields.io/github/commit-activity/y/ioncb-hassio-addons/app-example.svg
 [commits]: https://github.com/ioncb-hassio-addons/app-example/commits/main
 [contributors]: https://github.com/ioncb-hassio-addons/app-example/graphs/contributors
-[docs]: https://github.com/ioncb-hassio-addons/app-example/blob/main/example/DOCS.mdu=jhoncb
+[docs]: https://github.com/ioncb-hassio-addons/app-example/blob/main/example/DOCS.md
 [jhoncb]: https://github.com/jhoncb
 [github-actions-shield]: https://github.com/ioncb-hassio-addons/app-example/workflows/CI/badge.svg
 [github-actions]: https://github.com/ioncb-hassio-addons/app-example/actions
